@@ -1,18 +1,19 @@
-#print("llego a calculadora")
-def add(edad,numero):
-   return edad + numero
+# Sumar
+def adiccionar(edad,numero):
+    result_suma = int(edad) + int(numero)
+    return result_suma
 
-#print(add(10,30))
+# Restar
+def restar(edad,numero):
+    result_resta = int(edad) - int(numero)
+    return result_resta
 
-# def substract(numberOne,numberTwo):
-#   return numberOne - numberTwo
-# print(substract(30,20))
+# Multiplicar    
+def multiplicar(edad,numero):
+    result_multi = int(edad) * int(numero)
+    return result_multi
 
-# def product(numberOne,numberTwo):
-#   return numberOne * numberTwo
-# print(product(10,30))
-
-# def div(numberOne,numberTwo):
-#   return numberOne / numberTwo
-# print(div(10,30))
-
+# Dividir
+def dividir(edad,numero):
+    result_divi = int(edad) / int(numero)
+    return result_divi
